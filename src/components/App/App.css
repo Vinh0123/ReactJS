@@ -1,6 +1,41 @@
 .App {
   text-align: center;
 }
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 120px;
+  width: 120px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
 
 .App-logo {
   height: 40vmin;
